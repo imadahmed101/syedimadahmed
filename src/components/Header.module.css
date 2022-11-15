@@ -1,0 +1,16 @@
+.resume-nav {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #1f51da;
+    border-radius: 50px;
+    color: #1f51da;
+    background-color: white;
+    
+}
+
+.resume-nav:hover {
+    background-color: #1f51da;
+    color: white;
+    border-color: black;
+}

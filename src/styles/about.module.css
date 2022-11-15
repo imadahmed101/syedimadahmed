@@ -1,0 +1,92 @@
+.about-page {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    min-height: 300px;
+    background: #5927CE;
+    padding-top: 15px;
+}
+
+.about-page h1 {
+    color: white;
+}
+
+.about-page p {
+    color: black;
+}
+
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid white;
+
+}
+
+.about-me h3 {
+    text-align: center;
+    color: white;
+    
+}
+
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me-section img{
+    width: 80px;
+
+}
+
+.about-me-section p {
+    text-align: left;
+}
+
+.about-me-stack {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills {
+    border-left: 1px solid white;
+}
+
+.skills h3 {
+    text-align: center;
+}
+
+.skills-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.skills-section span {
+    color: #0856ff;
+}
+
+@media only screen and (max-width: 600px) { 
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+    }
+    .skills-section img {
+        width: 10rem;
+        margin: 10px 0px;
+    }
+}
+
+/* @media only screen and (max-width: 600px) { 
+    .about-page{
+        grid-template-columns: 1fr 1fr;
+    }
+} */

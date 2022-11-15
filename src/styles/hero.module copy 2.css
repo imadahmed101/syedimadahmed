@@ -1,0 +1,28 @@
+.hero-page {
+    display: grid;
+    width: cover;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-page h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+    background: radial-gradient(ellipse at top, #0856ff, transparent),
+    radial-gradient(ellipse at bottom, #0c0a8b, transparent);
+    -webkit-background-clip: text;  
+    background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-page button {
+
+    color: blue;
+    border-color: blue;
+}
+
+.hero-page button:hover {
+    border-color: #0856ff;
+}

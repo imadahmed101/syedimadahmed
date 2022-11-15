@@ -1,0 +1,32 @@
+.contact-page {
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #5927CE;    
+}
+
+.contact-page img {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.contact-page h1 {
+    color: white;
+}
+
+.contact-page p {
+    color: white;
+}
+
+.contact-page button {
+
+    background: #1f51da;
+    color: white;
+    border-color: black;
+    border-radius: 50px;
+}
+
+.contact-page button:hover {
+    background: white;
+    color: #1f51da;
+    border-color: #1f51da;
+}

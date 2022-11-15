@@ -1,0 +1,73 @@
+.projects-page {
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.projects-page h1 {
+    color: black;
+}
+
+.projects-page h3 {
+    color: black;
+}
+
+.projects-page p {
+    color: black;
+}
+
+.projects-page button {
+
+    background: #1f51da;
+    color: white;
+    border-color: black;
+    border-radius: 50px;
+}
+
+.projects-page button:hover {
+    background: white;
+    color: #1f51da;
+    border-color: #1f51da;
+}
+
+.projects-page-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    padding: 80px 20px;
+    text-align: left;
+    /* border: 1px solid black;
+    border-radius: 50px; */
+}
+
+.projects-page-tech img {
+    width: 50px;
+}
+
+.projects-page-tech div {
+    margin: 10px 0 50px 0;
+}
+
+.projects-description {
+    margin-top: 10px;
+}
+
+.projects-button {
+    margin-right: 10px; 
+}
+
+.title1 {
+    color: #00cae9;
+}
+
+.title2 {
+    color: rgb(202, 0, 34);
+}
+
+
+
+@media only screen and (max-width: 800px) { 
+    .projects-page-list{
+        grid-template-columns: 1fr;
+    }
+}
